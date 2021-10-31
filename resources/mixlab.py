@@ -1,7 +1,6 @@
 import os, time, uuid, re, IPython, sys, json, ipywidgets as widgets
 from sys import exit as exx
 from subprocess import Popen,PIPE
-from google.colab import files  # pylint: disable=import-error
 from glob import glob
 from IPython.display import HTML, display, clear_output
 
